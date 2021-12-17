@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="LueurTech.com" content="5;url=http-equiv">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RedStore</title>
+    <link rel="stylesheet" href="css/style-4.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/6295fdfa77.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="body">
+        <div class="navbar">
+            <div class="logo">
+                <img src="images/logo.png" width="120px">
+            </div>
+            <div class="convo1">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact-us.html">Contact</a></li>
+                    <li><a href="">Cart<span style="top: 1%;
+                        position: absolute;
+                        right: 9.5%; color:black;font-size: large;">0</span></a></li>
+                </ul>
+                <img src="/images/cart.png" width="30px" height="30px">
+            </div>
+        </div>
+    </div>
+    <div class="smalll">
+        <div class="row">
+            <div class="col2">
+                <img src="/images/product-5.jpg" width="100%" id="ProductImg">
+                <div class="small-img-row">
+                    <div class="small-img-col">
+                        <img src="images/product-5.jpg" width="100%" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="images/gallery5-2.jpg" width="100%" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="images/gallery5-3.jpg" width="100%" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="images/gallery5-4.jpg" width="100%" class="small-img">
+                    </div>
+                </div>
+            </div>
+            <div class="col22">
+                <p style="font-weight: bold;">Home / T-Shirt</p>
+                <h1 style="margin-bottom: 15px;">Red Printed T-Shirt by HRX</h1>
+                <h4>$50.00</h4>
+                <select class="selecttt">
+                    <option>Select Size</option>
+                    <option>XXL</option>
+                    <option>XL</option>
+                    <option>L</option>
+                    <option>M</option>
+                    <option>S</option>
+                    <option>M</option>
+                </select><br>
+                <input type="number" value="1" size="3" style="text-align: center;" class="select">
+                <button class="acart">Add to Cart</button>
+                <h3>Product Details<i class="fas fa-indent"></i></h3>
+                <p class="pargr" style="margin-bottom: 0px;">Maroon and Grey Printed T-shirt</p>
+                <p class="paragr">has a round neck</p>
+                <p class="paragr">short sleeves</p>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="footer">
+        <div class="small">
+            <div class="row2">
+                <div class="col1-1">
+                    <h3>Download Our App</h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <div class="logo">
+                        <img src="images/play-store.png">
+                        <img src="images/app-store.png">
+                    </div>
+                </div>
+                <div class="col1-2">
+                    <img src="images/logo-white.png" width="200px">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi, similique!</p>
+                </div>
+                <div class="col1-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="col1-4">
+                    <h3>Follow us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+        <hr style="margin-bottom: 0px;">
+        <div class="copyright">
+            <p>Copyright &copy; 2000</p>
+        </div>
+    </div>
+</body>
+<script>
+    var ProductImg = document.getElementById("ProductImg");
+    var SmallImg = document.getElementsByClassName("small-img");
+
+    SmallImg[0].onclick = function () {
+        ProductImg.src = SmallImg[0].src;
+    }
+    SmallImg[1].onclick = function () {
+        ProductImg.src = SmallImg[1].src;
+    }
+    SmallImg[2].onclick = function () {
+        ProductImg.src = SmallImg[2].src;
+    }
+    SmallImg[3].onclick = function () {
+        ProductImg.src = SmallImg[3].src;
+    }
+
+</script>
+<script src="main.js"></script>
+
+</html>
